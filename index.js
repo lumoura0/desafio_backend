@@ -12,5 +12,11 @@ function sumInteger(number) {
   return sum;
 }
 
-console.log(sumInteger(10));
-console.log(sumInteger(11));
+function calculateSum() {
+  const inputNumber = document.getElementById("numeroInput").value;
+  const result = sumInteger(Number(inputNumber));
+
+  alert(
+    `O somatório dos números divisíveis por 3 ou 5 menores que ${inputNumber} é: ${result}`
+  );
+}
