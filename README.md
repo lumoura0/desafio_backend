@@ -16,3 +16,7 @@ Instruções:
 - Sua implementação deve estar em um repositório público no Github.
 - Escreva um README no seu repositório com as instruções de como rodar o seu projeto e como
 podemos testá-lo.
+
+
+Como rodar o projeto: 
+- Fazer um git clone do repósitorio
